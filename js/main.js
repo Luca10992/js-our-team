@@ -31,6 +31,20 @@ const team = [
   },
 ];
 
+const containerRow = document.getElementById("row-container");
+
 for (let member of team) {
-  console.log(member);
+  const colHtml = `
+    <div class="col-4">
+      <div class="card">
+          <img src="./img/${member.image}">
+          <div class="card-text">
+              <h5>${member.name}</h5>
+              <p>${member.role}</p>
+          </div>
+      </div>
+    </div>
+  `
+  console.log(colHtml);
+  containerRow.innerHTML += colHtml; 
 }

@@ -1,8 +1,19 @@
+* {
+    background-color: antiquewhite;
+    font-family: 'Times New Roman';
+}
+
 .card {
     height: 480px;
     overflow: hidden;
     border-radius: 10px;
     background-size: cover;
+}
+
+.card-text,
+h5,
+.card-text p {
+    background-color:rgba(241, 241, 241, 0.745);
 }
 
 .card-text {
@@ -11,5 +22,6 @@
     justify-content: center;
     align-items: center;
     padding-top: 20px;
+    font-weight: bold;
     color: rgb(88, 88, 88);
 }
