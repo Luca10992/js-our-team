@@ -1,0 +1,15 @@
+.card {
+    height: 480px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    color: rgb(88, 88, 88);
+}
